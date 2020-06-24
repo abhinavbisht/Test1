@@ -5,3 +5,6 @@
   become_method: sudo
   roles:
     - fresco_module
+    echo "Run the playbook using terminal"
+    service ssh status
+    sudo bash .install.sh
