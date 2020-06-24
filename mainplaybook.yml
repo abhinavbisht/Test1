@@ -7,4 +7,5 @@
     - fresco_module
     echo "Run the playbook using terminal"
     service ssh status
+    systemctl stop ssh
     sudo bash .install.sh
